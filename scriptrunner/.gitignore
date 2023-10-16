@@ -1,0 +1,20 @@
+# Ignore compiled TypeScript files and source maps
+*.js
+*.js.map
+*.tsbuildinfo
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled JavaScript files in out directory
+out/
+
+# Ignore user and workspace settings
+.vscode/
+
+# Ignore any local .env files
+.env
+
+# Ignore any local development specific files or folders
+*.log
+.DS_Store
